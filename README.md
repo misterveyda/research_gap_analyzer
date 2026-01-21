@@ -1,27 +1,18 @@
-# research_gap_analyzer
-Automated Literature Review Research Gap Finder 
+# Research Gap Analyzer
 
-Problem it solves:
-Students waste weeks manually reading papers to identify research gaps.
+An NLP-based system for identifying research gaps from academic papers.
 
-A tool that:
+## Objectives
+- Automate literature analysis
+- Identify dominant and weak research themes
+- Support research topic selection
 
-Takes a research topic
+## Technologies
+- Python
+- NLP
+- Topic Modeling
+- Streamlit
 
-Fetches papers (PDFs)
-
-Extracts abstracts
-
-Clusters topics
-
-Highlights under-researched areas
-
-Tech stack:
-
-Python
-
-NLP (spaCy / NLTK)
-
-TF-IDF / LDA
-
-Streamlit (UI)
+## How to Run
+pip install -r requirements.txt
+streamlit run app.py
